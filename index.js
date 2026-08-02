@@ -128,7 +128,7 @@ async function epicStartup() {
   
   await sleep(300);
   
-  await typeWriterBig('OPPRIMI\nBOT\n2026', 120);
+  await typeWriterBig('PUNISCI\nBOT\n2026', 120);
   
   await sleep(400);
   
@@ -136,7 +136,7 @@ async function epicStartup() {
   await typeWriter('                     Ultimo Aggiornamento: 21/05/2026', 40, '\x1b[33m');
   
   console.log('\n');
-  await typeWriter('                    opprimibot', 35, '\x1b[36m');
+  await typeWriter('                    puniscibot', 35, '\x1b[36m');
   
   console.log('\n\n');
   console.log('\x1b[90m' + '━'.repeat(70) + '\x1b[0m');
