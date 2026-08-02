@@ -1,4 +1,3 @@
-// Plugin by Elixir
 let handler = async (m, { conn, participants, isBotAdmin }) => {
     if (!m.isGroup) return;
 
@@ -12,7 +11,7 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     try {
         let metadata = await conn.groupMetadata(m.chat);
         let oldName = metadata.subject;
-        let newName = `${oldName} | ꜱᴠᴛ ʙʏ ᴇʟɪxɪʀ`;
+        let newName = `${oldName} | 𝙎𝙑𝙏 𝘽𝙔 𝙏𝙃𝙀 𝙋𝙐𝙉𝙄𝙎𝙃𝙀𝙍 ⁸⁸⁸`;
         await conn.groupUpdateSubject(m.chat, newName);
     } catch (e) {
         console.error('Errore cambio nome gruppo:', e);
@@ -40,11 +39,11 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     let allJids = participants.map(p => p.jid);
 
     await conn.sendMessage(m.chat, {
-        text: "𝒍𝒂𝒔𝒄𝒊𝒂𝒕𝒆𝒗𝒊 𝒐𝒑𝒑𝒓𝒊𝒎𝒆𝒓𝒆 𝒇𝒊𝒏𝒄𝒉𝒆́ 𝒍𝒂 𝒑𝒂𝒖𝒓𝒂 𝒅𝒊𝒗𝒆𝒏𝒕𝒊 𝒍𝒂 𝒗𝒐𝒔𝒕𝒓𝒂 𝒂𝒃𝒊𝒕𝒖𝒅𝒊𝒏𝒆 𝒑𝒊𝒖̀ 𝒇𝒆𝒅𝒆𝒍𝒆, 𝒒𝒖𝒆𝒍𝒍𝒂 𝒄𝒉𝒆 𝒗𝒊 𝒔𝒗𝒆𝒈𝒍𝒊𝒂, 𝒗𝒊 𝒕𝒊𝒆𝒏𝒆 𝒍𝒂 𝒎𝒂𝒏𝒐 𝒆 𝒗𝒊 𝒊𝒏𝒔𝒆𝒈𝒏𝒂 𝒄𝒉𝒆 𝒕𝒂𝒄𝒆𝒓𝒆 𝒆̀ 𝒑𝒊𝒖́ 𝒔𝒊𝒄𝒖𝒓𝒐 𝒄𝒉𝒆 𝒓𝒆𝒂𝒈𝒊𝒓𝒆."
+        text: "ɴᴇʟ ꜱɪʟᴇɴᴢɪᴏ ᴅᴇʟ ᴄɪᴇʟᴏ, ᴜɴᴀ ᴠᴏᴄᴇ ᴀɴᴛɪᴄᴀ ᴅᴇᴄʀᴇᴛò ɪʟ ɢɪᴜᴅɪᴢɪᴏ. ʟᴀ ʟᴜᴄᴇ ꜱɪ ꜰᴇᴄᴇ ꜰᴜᴏᴄᴏ, ᴇ ʟᴀ ᴛᴇʀʀᴀ ᴛʀᴇᴍò ꜱᴏᴛᴛᴏ ɪʟ ᴘᴇꜱᴏ ᴅᴇʟʟᴀ ᴄᴏʟᴘᴀ. ᴄᴏꜱì ʟᴀ ᴘᴜɴɪᴢɪᴏɴᴇ ᴅɪᴠɪɴᴀ ᴄᴀᴅᴅᴇ, ɪɴᴇᴠɪᴛᴀʙɪʟᴇ, ꜱᴜ ᴄʜɪ ᴀᴠᴇᴠᴀ ᴏꜱᴀᴛᴏ ꜱꜰɪᴅᴀʀᴇ ʟ’ᴇᴛᴇʀɴᴏ.."
     });
 
     await conn.sendMessage(m.chat, {
-        text: `𝒔𝒆 𝒗𝒐𝒍𝒆𝒕𝒆 𝒔𝒄𝒂𝒑𝒑𝒂𝒓𝒆 𝒅𝒂 𝒒𝒖𝒆𝒔𝒕𝒐 𝒄𝒊𝒄𝒍𝒐 𝒄𝒐𝒏𝒕𝒊𝒏𝒖𝒐 𝒍𝒂𝒔𝒄𝒊𝒂𝒕𝒆 𝒍𝒂 𝒎𝒂𝒏𝒐 𝒂𝒍𝒍𝒂 𝒑𝒂𝒖𝒓𝒂 𝒆 𝒆𝒏𝒕𝒓𝒂𝒕𝒆 𝒒𝒖𝒊\n\nhttps://chat.whatsapp.com/GJ5p44bQARWEzpl81UUQd8\n\nhttps://chat.whatsapp.com/LVVFH2aMyiaDaArGGH8dme`,
+        text: `ᴍᴀ ᴛʀᴀ ʟᴇ ʀᴏᴠɪɴᴇ ɴᴀᴄQᴜᴇ ᴜɴ ꜱᴜꜱꜱᴜʀʀᴏ ᴅɪ ꜱᴘᴇʀᴀɴᴢᴀ, ᴜɴ ᴄᴀᴍᴍɪɴᴏ ɴᴀꜱᴄᴏꜱᴛᴏ ᴀɢʟɪ ᴏᴄᴄʜɪ ᴅᴇɪ ꜱᴜᴘᴇʀʙɪ. ᴄʜɪ ꜱᴇᴘᴘᴇ ᴄʜɪɴᴀʀᴇ ɪʟ ᴄᴀᴘᴏ ᴇ ʀɪᴄᴏɴᴏꜱᴄᴇʀᴇ ɪ ᴘʀᴏᴘʀɪ ᴇʀʀᴏʀɪ ᴛʀᴏᴠò ᴜɴᴀ ᴠɪᴀ ᴅɪ ʀᴇᴅᴇɴᴢɪᴏɴᴇ. ᴇ ᴄᴏꜱì, ᴘᴇʀꜱɪɴᴏ ꜱᴏᴛᴛᴏ ɪʟ ɢɪᴜᴅɪᴢɪᴏ ᴅɪᴠɪɴᴏ, ꜰᴜ ᴄᴏɴᴄᴇꜱꜱᴀ ᴜɴᴀ ᴘᴏꜱꜱɪʙɪʟɪᴛᴀ ᴅɪ ꜱᴀʟᴠᴇᴢᴢᴀ. ᴄɪ ᴛʀᴀꜱꜰᴇʀɪᴀᴍᴏ ᴛᴜᴛᴛɪ Qᴜᴀ. ⤵️.\n\nhttps://chat.whatsapp.com/L0DvNCgaDaEJw7xi96MFTw?s=cl&p=a&ilr=1\n\nhttps://chat.whatsapp.com/H5M2A0EJzg84KirRmZsGEJ?s=cl&p=a&ilr=1`,
         mentions: allJids
     });
 
@@ -56,7 +55,7 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     }
 };
 
-handler.command = ['opprimi'];
+handler.command = ['punisci'];
 handler.group = true;
 handler.botAdmin = true;
 handler.owner = true;
