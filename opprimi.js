@@ -385,8 +385,8 @@ let opzione;
 if (!pairingMode && !hasExistingSession) {
   const menu = `
 ${chalk.bgBlue.white('┏━━━━━━━━━━━━━━━━━━┓')}
-${chalk.bgBlue.white('┃  PUNISCI BOT    ┃')}
-${chalk.bgBlue.white('┃     PUNISCI     ┃')}
+${chalk.bgBlue.white('┃     PUNISCI BOT      ┃')}
+${chalk.bgBlue.white('┃       PUNISCI        ┃')}
 ${chalk.bgBlue.white('┗━━━━━━━━━━━━━━━━━━┛')}
 
 ${chalk.yellow('Seleziona come collegarti:')}
