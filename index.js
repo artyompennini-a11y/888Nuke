@@ -154,7 +154,7 @@ async function epicStartup() {
   console.log('\n');
   
   await sleep(200);
-  await pulse('                     #OPPRIMI', 4);
+  await pulse('                     #PUNISCI', 4);
   
   console.log('\n');
   console.log('\x1b[90m' + '━'.repeat(70) + '\x1b[0m');
