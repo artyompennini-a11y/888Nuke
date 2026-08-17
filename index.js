@@ -223,4 +223,4 @@ async function start(file) {
   }
 }
 
-start('opprimi.js');
+start('punisci.js');
