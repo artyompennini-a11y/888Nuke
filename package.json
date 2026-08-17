@@ -1,12 +1,12 @@
 {
-  "name": "opprimibot",
+  "name": "puniscibot",
   "version": "1.0.0",
-  "description": "opprimibot",
+  "description": "puniscibot",
   "main": "index.js",
   "type": "module",
   "license": "Apache-2.0",
   "author": {
-    "name": "opprimibot",
+    "name": "puniscibot",
     "url": ""
   },
   "homepage": "",
@@ -26,12 +26,12 @@
     "based",
     "baileys",
     "whatsapp-bot",
-    "opprimibot"
+    "puniscibot"
   ],
   "directories": {
     "lib": "lib",
     "plugins": "plugins",
-    "opprimi-sub": "opprimi-sub"
+    "opprimi-sub": "punisci-sub"
   },
   "scripts": {
     "start": "node index.js",
