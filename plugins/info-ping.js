@@ -21,9 +21,8 @@ const clockString = ms => {
   return `${days.toString().padStart(2, '0')}g ${hours.toString().padStart(2, '0')}o ${minutes.toString().padStart(2, '0')}m`
 }
 
-let handler = async (m, { conn, usedPrefix }) => {
+let handler = async (m, { conn }) => {
   const start = speed()
-
 
   await conn.readMessages([m.key])
 
@@ -42,17 +41,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃ 📶 *Segnale:* Eccellente
 ╰━━━━━━━━━━━━━━━━━━┈`.trim()
 
-  const buttons = [
-    { buttonId: `${usedPrefix}ping`, buttonText: { displayText: "📡 PING" }, type: 1 },
-    { buttonId: `${usedPrefix}menu`, buttonText: { displayText: "📋 MENU" }, type: 1 }
-  ]
-
-  await conn.sendMessage(m.chat, {
-    text: info,
-    footer: "Seleziona un'opzione qui sotto o digita il relativo comando.",
-    buttons: buttons,
-    headerType: 1
-  }, { quoted: m })
+  await conn.sendMessage(m.chat, { text: info }, { quoted: m })
 }
 
 handler.help = ['ping']
