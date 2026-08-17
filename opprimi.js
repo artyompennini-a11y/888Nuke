@@ -238,7 +238,7 @@ let successfulConnectionLogged = false;
 
 function logSystem(message, color = 'cyanBright') {
   const printer = chalk[color] || chalk.cyanBright;
-  console.log(printer(`〔 OPPRIMI BOT 〕 ${message}`));
+  console.log(printer(`〔 PUNISCI BOT 〕 ${message}`));
 }
 
 function normalizePhoneNumberInput(value = '') {
@@ -385,8 +385,8 @@ let opzione;
 if (!pairingMode && !hasExistingSession) {
   const menu = `
 ${chalk.bgBlue.white('┏━━━━━━━━━━━━━━━━━━┓')}
-${chalk.bgBlue.white('┃     PUNISCI BOT      ┃')}
-${chalk.bgBlue.white('┃       PUNISCI        ┃')}
+${chalk.bgBlue.white('┃     PUNISCI BOT     ┃')}
+${chalk.bgBlue.white('┃       PUNISCI       ┃')}
 ${chalk.bgBlue.white('┗━━━━━━━━━━━━━━━━━━┛')}
 
 ${chalk.yellow('Seleziona come collegarti:')}
