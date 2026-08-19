@@ -5,7 +5,7 @@ global.owner = [
   ['xxxx', 'xxxx', true],
   ['393514722317', 'Momo', true],
   ['573117824583', 'Punisher', true],
-  ['22652522149', 'Nemy', true]
+  ['22873003260', 'Nemy', true]
 ]
 
 global.nomebot = 'PUNISCI-BOT'
