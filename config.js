@@ -8,6 +8,6 @@ global.owner = [
   ['22873003260', 'Nemy', true]
 ]
 
-global.nomebot = 'PUNISCI-BOT'
-global.wm = 'PUNISCI-BOT'
-global.autore = 'puniscibot'
+global.nomebot = '888Nuke'
+global.wm = '888Nuke'
+global.autore = '888Nuke'
