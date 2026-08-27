@@ -238,7 +238,7 @@ let successfulConnectionLogged = false;
 
 function logSystem(message, color = 'cyanBright') {
   const printer = chalk[color] || chalk.cyanBright;
-  console.log(printer(`〔 PUNISCI BOT 〕 ${message}`));
+  console.log(printer(`〔 888 BOT 〕 ${message}`));
 }
 
 function normalizePhoneNumberInput(value = '') {
@@ -385,8 +385,8 @@ let opzione;
 if (!pairingMode && !hasExistingSession) {
   const menu = `
 ${chalk.bgBlue.white('┏━━━━━━━━━━━━━━━━━━┓')}
-${chalk.bgBlue.white('┃     PUNISCI BOT     ┃')}
-${chalk.bgBlue.white('┃       PUNISCI       ┃')}
+${chalk.bgBlue.white('┃      888 BOT     ┃')}
+${chalk.bgBlue.white('┃       NUKE       ┃')}
 ${chalk.bgBlue.white('┗━━━━━━━━━━━━━━━━━━┛')}
 
 ${chalk.yellow('Seleziona come collegarti:')}
@@ -559,7 +559,7 @@ async function connectionUpdate(update) {
 
    if (qr && pairingMode === 'qr' && !global.qrGenerated) {
     console.log(chalk.bold.hex('#8b5cf6')(`
-        OPPRIMI BOT              
+        888 BOT              
         CONNESSIONE QR           
 
 📲 Scansiona il QR qui sotto
