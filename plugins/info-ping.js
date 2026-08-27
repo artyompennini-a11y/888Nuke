@@ -33,7 +33,7 @@ let handler = async (m, { conn }) => {
   const speedWithFont = toMathematicalAlphanumericSymbols(latency)
 
   const info = `╭━━━〔 🏓 *PONG* 〕━━━┈
-┃ *Bot:* PUNISCI BOT
+┃ *Bot:* 888Nuke
 ┃ *Stato:* Online / Attivo
 ┃━━━━━━━━━━━━━━━━━━
 ┃ 🚀 *Risposta:* ${speedWithFont} ms
