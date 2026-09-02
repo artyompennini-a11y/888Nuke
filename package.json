@@ -1,12 +1,12 @@
 {
-  "name": "puniscibot",
+  "name": "888Nuke",
   "version": "1.0.0",
-  "description": "puniscibot",
-  "main": "index.js",
+  "description": "888Forever",
+  "main": "888.js",
   "type": "module",
   "license": "Apache-2.0",
   "author": {
-    "name": "puniscibot",
+    "name": "888Nuke",
     "url": ""
   },
   "homepage": "",
@@ -34,9 +34,9 @@
     "opprimi-sub": "punisci-sub"
   },
   "scripts": {
-    "start": "node index.js",
-    "code": "node index.js code",
-    "qr": "node index.js qr"
+    "start": "node 888.js",
+    "code": "node 888.js code",
+    "qr": "node 888.js qr"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
